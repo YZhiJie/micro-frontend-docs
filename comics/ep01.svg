@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="第一话：iframe 隔离基线">
+  <rect width="1200" height="370" fill="#F8FAFC"/>
+  <style>
+    text { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .mentor { fill: #2563EB; }
+    .student { fill: #F59E0B; }
+    .ink { fill: #1E293B; }
+    .bubble { fill: #FFFFFF; stroke-width: 2.5; }
+  </style>
+
+  <!-- Panel 1 -->
+  <g transform="translate(20,20)">
+    <rect width="280" height="330" rx="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    <text x="16" y="28" font-size="11" fill="#94A3B8">EP01 · 1</text>
+    <text x="264" y="28" font-size="11" fill="#94A3B8" text-anchor="end">隔离基线</text>
+    <rect class="bubble" x="14" y="46" width="252" height="110" rx="14" stroke="#F59E0B"/>
+    <text x="28" y="70" font-size="13" font-weight="600" class="student">小前</text>
+    <text x="28" y="94" font-size="12" class="ink">主应用和子应用</text>
+    <text x="28" y="114" font-size="12" class="ink">样式天天打架，怎么办？</text>
+    <g>
+      <rect x="62" y="262" width="56" height="56" rx="16" class="mentor" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="90" cy="233" r="26" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M64 233 Q64 204 90 204 Q116 204 116 233 Q106 221 90 221 Q74 221 64 233 Z" class="ink"/>
+      <circle cx="80" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="100" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <line x1="86" y1="238" x2="94" y2="238" stroke="#1E293B" stroke-width="2"/>
+      <path d="M84 249 Q90 254 96 249" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="176" y="272" width="48" height="48" rx="14" class="student" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="200" cy="247" r="22" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M178 247 Q178 225 200 225 Q222 225 222 247 Q212 237 200 237 Q188 237 178 247 Z" class="ink"/>
+      <circle cx="192" cy="248" r="2.5" class="ink"/>
+      <circle cx="208" cy="248" r="2.5" class="ink"/>
+      <path d="M193 257 Q200 262 207 257" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Panel 2 -->
+  <g transform="translate(310,20)">
+    <rect width="280" height="330" rx="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    <text x="16" y="28" font-size="11" fill="#94A3B8">EP01 · 2</text>
+    <rect class="bubble" x="14" y="46" width="252" height="110" rx="14" stroke="#2563EB"/>
+    <text x="28" y="70" font-size="13" font-weight="600" class="mentor">阿微</text>
+    <text x="28" y="94" font-size="12" class="ink">先上隔离最硬的方案：</text>
+    <text x="28" y="114" font-size="12" class="ink">iframe。</text>
+    <text x="28" y="134" font-size="12" class="ink">独立的 window / DOM / CSS。</text>
+    <g>
+      <rect x="62" y="262" width="56" height="56" rx="16" class="mentor" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="90" cy="233" r="26" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M64 233 Q64 204 90 204 Q116 204 116 233 Q106 221 90 221 Q74 221 64 233 Z" class="ink"/>
+      <circle cx="80" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="100" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <line x1="86" y1="238" x2="94" y2="238" stroke="#1E293B" stroke-width="2"/>
+      <path d="M84 249 Q90 254 96 249" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="176" y="272" width="48" height="48" rx="14" class="student" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="200" cy="247" r="22" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M178 247 Q178 225 200 225 Q222 225 222 247 Q212 237 200 237 Q188 237 178 247 Z" class="ink"/>
+      <circle cx="192" cy="248" r="2.5" class="ink"/>
+      <circle cx="208" cy="248" r="2.5" class="ink"/>
+      <path d="M193 257 Q200 262 207 257" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <rect x="70" y="180" width="140" height="12" rx="6" fill="#DBEAFE"/>
+    <rect x="90" y="196" width="120" height="8" rx="4" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Panel 3 -->
+  <g transform="translate(600,20)">
+    <rect width="280" height="330" rx="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    <text x="16" y="28" font-size="11" fill="#94A3B8">EP01 · 3</text>
+    <rect class="bubble" x="14" y="44" width="252" height="64" rx="14" stroke="#F59E0B"/>
+    <text x="28" y="66" font-size="13" font-weight="600" class="student">小前</text>
+    <text x="28" y="88" font-size="12" class="ink">那它们怎么通信？</text>
+    <rect class="bubble" x="14" y="116" width="252" height="64" rx="14" stroke="#2563EB"/>
+    <text x="28" y="138" font-size="13" font-weight="600" class="mentor">阿微</text>
+    <text x="28" y="160" font-size="12" class="ink">postMessage，记得校验 origin。</text>
+    <g>
+      <rect x="62" y="262" width="56" height="56" rx="16" class="mentor" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="90" cy="233" r="26" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M64 233 Q64 204 90 204 Q116 204 116 233 Q106 221 90 221 Q74 221 64 233 Z" class="ink"/>
+      <circle cx="80" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="100" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <line x1="86" y1="238" x2="94" y2="238" stroke="#1E293B" stroke-width="2"/>
+      <path d="M84 249 Q90 254 96 249" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="176" y="272" width="48" height="48" rx="14" class="student" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="200" cy="247" r="22" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M178 247 Q178 225 200 225 Q222 225 222 247 Q212 237 200 237 Q188 237 178 247 Z" class="ink"/>
+      <circle cx="192" cy="248" r="2.5" class="ink"/>
+      <circle cx="208" cy="248" r="2.5" class="ink"/>
+      <path d="M193 257 Q200 262 207 257" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Panel 4 -->
+  <g transform="translate(890,20)">
+    <rect width="280" height="330" rx="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    <text x="16" y="28" font-size="11" fill="#94A3B8">EP01 · 4</text>
+    <rect class="bubble" x="14" y="46" width="252" height="110" rx="14" stroke="#2563EB"/>
+    <text x="28" y="70" font-size="13" font-weight="600" class="mentor">阿微</text>
+    <text x="28" y="94" font-size="12" class="ink">隔离最强，代价是通信与体验。</text>
+    <text x="28" y="114" font-size="12" class="ink">适合遗留系统共存。</text>
+    <text x="28" y="140" font-size="12" font-weight="600" fill="#2563EB">→ 看 iframe 实战</text>
+    <g>
+      <rect x="62" y="262" width="56" height="56" rx="16" class="mentor" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="90" cy="233" r="26" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M64 233 Q64 204 90 204 Q116 204 116 233 Q106 221 90 221 Q74 221 64 233 Z" class="ink"/>
+      <circle cx="80" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="100" cy="238" r="6" fill="none" stroke="#1E293B" stroke-width="2"/>
+      <line x1="86" y1="238" x2="94" y2="238" stroke="#1E293B" stroke-width="2"/>
+      <path d="M84 249 Q90 254 96 249" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="176" y="272" width="48" height="48" rx="14" class="student" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="200" cy="247" r="22" fill="#FDE68A" stroke="#1E293B" stroke-width="3"/>
+      <path d="M178 247 Q178 225 200 225 Q222 225 222 247 Q212 237 200 237 Q188 237 178 247 Z" class="ink"/>
+      <circle cx="192" cy="248" r="2.5" class="ink"/>
+      <circle cx="208" cy="248" r="2.5" class="ink"/>
+      <path d="M193 257 Q200 262 207 257" fill="none" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
